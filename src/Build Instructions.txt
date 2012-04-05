@@ -1,0 +1,3 @@
+Build Instructions
+
+- Simply throw all the source code in this directory into a Visual C++ project or IDE/compiler of your choice to compile and run.  Run instructions are included in the ../app directory.
