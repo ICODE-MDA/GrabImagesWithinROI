@@ -11,5 +11,8 @@ Specifically make sure the the following lines are correct.
 a)call "C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\vcvarsall.bat"
 b)set PATH=C:\Program Files (x86)\CMake 2.8\bin;%PATH%
 c)set GIWR_INCLUDES=D:\libraries\icode\google-icode-mda\trunk\GrabImagesWithinROI\src
+d)cmake -G "Visual Studio 10" -DGIWR_INCLUDES=%GIWR_INCLUDES% ../src/
+
+In (d) if you are using a compiler besides Visual Studio 10, you should change this argument to reflect the generator that you wish to use.
 
 Double click "build_project.bat" and this should create a Visual Studio solution named GrabImagesWithinROI.sln that you can open and use.
